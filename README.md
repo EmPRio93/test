@@ -7,7 +7,7 @@
 
     cd /test
 
-    build ./ --label [LABEL] -t [TAG]:[TAG]
+    docker build ./ --label [LABEL] -t [TAG]:[TAG]
 
     run -d -p 8080:80 [LABEL]
 
