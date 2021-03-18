@@ -9,7 +9,7 @@
 
     docker build ./ --label [LABEL] -t [TAG]:[TAG]
 
-    run -d -p 8080:80 [LABEL]
+    run -d -p 8080:80 [TAG]:[TAG]
 
     после чего приложение будет отвечать по адресу :
     http://localhost:8080
