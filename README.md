@@ -7,9 +7,9 @@
 
     cd /test
 
-    build ./ --label <LABEL> -t <TAG>:<TAG>
+    build ./ --label [LABEL] -t [TAG]:[TAG]
 
-    run -d -p 8080:80 <LABEL>
+    run -d -p 8080:80 [LABEL]
 
     после чего приложение будет отвечать по адресу :
     http://localhost:8080
