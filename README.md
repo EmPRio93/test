@@ -12,7 +12,7 @@
     после чего приложение будет отвечать по адресу :
     http://localhost:8080
 
-    Helm chart находиться в каталоге test-app, для доставки docker image в k8s был создан docker репозиторий: https://hub.docker.com/r/emprio/emprio-nginx
+    Helm chart находится в каталоге test-app, для доставки docker image в k8s был создан docker репозиторий: https://hub.docker.com/r/emprio/emprio-nginx
     Для установки helm чарта в k8s :
     1. git clone https://github.com/EmPRio93/test.git 
     2. cd test/
